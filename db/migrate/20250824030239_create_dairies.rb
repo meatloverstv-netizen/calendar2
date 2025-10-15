@@ -1,6 +1,6 @@
 class CreateDairies < ActiveRecord::Migration[7.2]
   def change
-    create_table :dairy do |f|
+    create_table :dairies do |f|
       f.string :title
       f.text :content
       
